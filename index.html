@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculadora</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head >
+<body>
+<form name="contenedor">
+<div align="center">
+  <input class="texto" type="text" id="text" name="res" placeholder="0">
+  <table align="center">
+    <tr>
+      <td><button onclick="elimina"> C </button></td>
+      <td><input type="button" value="1" onclick="muestra(value)"></td>
+      <td><input type="button" value="2" onclick="muestra(value)"></td> 
+      <td><input type="button" value="3" onclick="muestra(value)"></td>
+      <td><input type="button" value="+" onclick="muestra(value)"></td>
+
+
+    </tr>
+    <tr>
+      <td></td>
+      <td><input type="button" value="4" onclick="muestra(value)"></td>
+      <td><input type="button" value="5" onclick="muestra(value)"></td> 
+      <td><input type="button" value="6" onclick="muestra(value)"></td>
+      <td><input type="button" value="-" onclick="muestra(value)"></td>
+
+    </tr>
+    <tr>
+      <td></td>
+      <td><input type="button" value="7" onclick="muestra(value)"></td>
+      <td><input type="button" value="8" onclick="muestra(value)"></td> 
+      <td><input type="button" value="9" onclick="muestra(value)"></td>
+      <td><input type="button" value="*" onclick="muestra(value)"></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td><input type="button" value="." onclick="muestra(value)"></td>
+      <td><input type="button" value="0" onclick="muestra(value)"></td>
+      <td><input type="button" value="=" onclick="iguala(value)"></td>
+      <td><input type="button" value="/" onclick="muestra(value)"></td>
+    </tr>
+  </table>
+</div>
+</form>
+
+<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>

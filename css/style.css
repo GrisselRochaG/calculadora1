@@ -1,0 +1,15 @@
+body{
+  background-color: #990099;
+}
+
+input, button {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 50px;
+    text-align: right;
+}
+
+.texto {
+    width: 30%;
+}
+
